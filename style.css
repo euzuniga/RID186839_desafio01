@@ -1,0 +1,190 @@
+*{
+margin: 0px;
+font-family: "inter";
+
+}
+
+#menu-superior {
+
+font-family: "inter";
+color: #FFFFFF;
+background-color: #303030;
+width: 1450px;
+height: 400px;
+padding: 34px;
+padding-bottom: 10px;
+}
+
+#titulo-menusuperior {
+
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    margin-top: 140px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 1024px;
+    height: 72px;
+    
+}
+
+#frase-menusuperior {
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    margin-left: 50px;
+    width: 1024px;
+    height: 28px;
+
+}
+
+#menu-conquistas {
+
+    padding: 34px;
+    padding-top: 95px;
+    padding-bottom: 0px;
+    background-color: #F9F9F9;
+    width: 1450px;
+    height: 150px;
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+.lacunas{
+
+    margin-left: 100px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.number {
+    
+    margin-bottom: -10px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: left;
+    display: grid;
+    grid-auto-flow: column;
+
+}
+
+#menu-historia {
+    
+    padding: 34px;
+    background-color: #FFFFFF;
+    width: 1450px;
+    height: 600px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo-historia {
+
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 100px;
+
+}
+
+#texto-historia {
+
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    margin-top: 40px;
+    margin-left: 100px;
+
+}
+
+#foto {
+
+    width: 460px;
+    height: 555px;
+    margin-top: 20px;
+}
+
+#formulario {
+
+    align-items: center;
+    background-color: #303030;
+    padding: 34px;
+    width: 1450px;
+    height: 400px
+
+}
+
+#titulo-formulario{
+
+    color: #FFFFFF;
+    width: 944px;
+    height: 48px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-left: 250px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+
+input {
+
+    width: 508px;
+    height: 72px;
+    margin-left: 460px;
+    margin-top: 25px;
+    padding-left: 15px;
+    font-family: "Raleway";
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    background-color: #FFFFFF;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+button {
+    
+    width: 320px;
+    height: 70px;
+    font-family: "Raleway";
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 545px;    
+    margin-top: 35px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    border: 0px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color: #db9845;
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: #0b0b0b  0px 15px 20px ;  
+}
